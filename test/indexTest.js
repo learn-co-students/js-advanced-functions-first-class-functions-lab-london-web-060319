@@ -41,6 +41,15 @@ describe('index.js', function () {
     });
 
     it('should multiply a given value using the created multiplier', function () {
+      // const doubler = createFareMultiplier(2);
+      // const tripler = createFareMultiplier(3);
+      // const quadrupler = createFareMultiplier(4);
+
+      // doubler(10)
+      // tripler(10)
+      // quadrupler(10)
+      // const fareQuintupler = createFareMultiplier(5);
+      // const fareQuintupler = createFareMultiplier(5);
       const fareQuintupler = createFareMultiplier(5);
 
       expect(fareQuintupler(5)).to.eql(25);
